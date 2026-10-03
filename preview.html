@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume Preview</title>
+
+<link rel="stylesheet" href="preview.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="top-bar">
+
+    <button onclick="window.location.href='builder.html'">
+        Edit Resume
+    </button>
+
+    <button id="downloadBtn">
+        Download PDF
+    </button>
+
+</div>
+
+<div id="resume">
+
+    <div class="header">
+
+        <img id="photo">
+
+        <div>
+            <h1 id="name"></h1>
+            <h3 id="title"></h3>
+        </div>
+
+    </div>
+
+    <div class="contact">
+
+        <p id="email"></p>
+        <p id="phone"></p>
+        <p id="address"></p>
+        <p id="linkedin"></p>
+        <p id="github"></p>
+
+    </div>
+
+    <div class="section">
+        <h2>Career Objective</h2>
+        <p id="objective"></p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p id="education"></p>
+    </div>
+
+    <div class="section">
+        <h2>Hard Skills</h2>
+        <p id="hardSkills"></p>
+    </div>
+
+    <div class="section">
+        <h2>Soft Skills</h2>
+        <p id="softSkills"></p>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+        <p id="experience"></p>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <p id="projects"></p>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <p id="certifications"></p>
+    </div>
+
+    <div class="section">
+        <h2>Languages</h2>
+        <p id="languages"></p>
+    </div>
+
+    <div class="section">
+        <h2>Interests</h2>
+        <p id="interests"></p>
+    </div>
+
+</div>
+
+<script src="preview.js"></script>
+
+</body>
+</html>
