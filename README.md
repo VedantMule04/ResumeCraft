@@ -8,9 +8,12 @@
 
 A lightweight, front-end resume builder designed for students. Fill in your details, pick a template, and download your resume as a PDF.
 
+### 🔗 [**Live Demo: Try ResumeCraft Now**](https://vedantmule04.github.io/ResumeCraft/)
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Live](https://img.shields.io/badge/Demo-Live-brightgreen)
 
 </div>
 
@@ -21,6 +24,12 @@ A lightweight, front-end resume builder designed for students. Fill in your deta
 ResumeCraft helps students and freshers create simple, professional resumes without signing up for anything or installing software. Everything runs in the browser: there is no backend, and your data never leaves your device.
 
 This is my first web development project, built using HTML, CSS, and vanilla JavaScript.
+
+## 🌐 Live Demo
+
+👉 **https://vedantmule04.github.io/ResumeCraft/**
+
+No installation needed. Open the link, fill in your details, choose a template, and download your resume as a PDF.
 
 ## ✨ Features
 
@@ -53,6 +62,7 @@ This is my first web development project, built using HTML, CSS, and vanilla Jav
 - **Web Storage API (`localStorage`)**: passing data between pages
 - **[html2pdf.js](https://github.com/eKoopmans/html2pdf.js)**: client-side PDF generation
 - **Google Fonts (Poppins)**: typography
+- **GitHub Pages**: hosting
 
 ## 📁 Project Structure
 
@@ -73,9 +83,7 @@ ResumeCraft/
 └── README.md
 ```
 
-## ⚙️ Getting Started
-
-No installation required.
+## ⚙️ Run Locally
 
 ```bash
 # Clone the repository
@@ -96,6 +104,7 @@ Then open `index.html` in your browser. You can also use the **Live Server** ext
 - Passing data between pages using `localStorage`
 - Rendering dynamic content with template literals
 - Generating PDFs in the browser with html2pdf.js
+- Deploying a static website with GitHub Pages
 
 ## 🗺️ Roadmap
 
